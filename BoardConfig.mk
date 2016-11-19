@@ -59,12 +59,12 @@ KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-li
 KERNEL_TOOLCHAIN_PREFIX := arm-linux-androideabi-
 
 # Optimizations
-STRICT_ALIASING := true
+STRICT_ALIASING := false
 CLANG_O3 := true
 ENABLE_GCCONLY := false
 GRAPHITE_OPTS := false
 USE_PIPE := true  
-ENABLE_SANITIZE := true
+ENABLE_SANITIZE := false
 CORTEX_TUNINGS := true
 POLLY_OPTIMIZATION := true
 ENABLE_PTHREAD := true
