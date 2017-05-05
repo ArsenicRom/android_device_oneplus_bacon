@@ -90,9 +90,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     OneplusDoze
 
-# Gello
+# Jelly
 PRODUCT_PACKAGES += \
-    Gello
+    Jelly
 
 # Graphics
 PRODUCT_PACKAGES += \
