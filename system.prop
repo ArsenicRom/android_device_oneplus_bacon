@@ -94,3 +94,10 @@ ro.ril.disable.power.collapse=1
 
 # Enable deep sleep #
 pm.sleep_mode=1
+
+# VoLTE
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=0
+persist.data.iwlan.enable=true
+persist.dbg.wfc_avail_ovr=0
