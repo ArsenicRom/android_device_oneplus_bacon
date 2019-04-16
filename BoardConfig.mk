@@ -49,9 +49,6 @@ BOARD_USERDATAEXTRAIMAGE_PARTITION_NAME := 64G
 # Init
 TARGET_LIBINIT_MSM8974_DEFINES_FILE := device/oneplus/bacon/init/init_bacon.cpp
 
-# NFC
-BOARD_NFC_CHIPSET := pn547
-
 # Properties
 TARGET_SYSTEM_PROP += device/oneplus/bacon/system.prop
 
@@ -71,6 +68,8 @@ TARGET_USE_SDCLANG := true
 # TWRP
 ifeq ($(WITH_TWRP),true)
 TARGET_RECOVERY_DEVICE_DIRS += device/oneplus/bacon/twrp
+BOARD_HAS_NO_REAL_SDCARD := true
+RECOVERY_SDCARD_ON_DATA := true
 endif
 
 # Inherit from the proprietary version
